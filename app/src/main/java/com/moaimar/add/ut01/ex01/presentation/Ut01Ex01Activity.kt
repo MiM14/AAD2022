@@ -1,6 +1,7 @@
-package com.moaimar.add.ut01.ex01
+package com.moaimar.add.ut01.ex01.presentation
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.moaimar.add.R
 import com.moaimar.add.ut01.ex01.data.SharedPreferenceLocalSource
