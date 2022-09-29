@@ -12,8 +12,9 @@ class SharedPreferenceLocalSource(private val activity: Activity) {
     private val localData = activity.getSharedPreferences(activity.getString(R.string.preference_ut01ex02), Context.MODE_PRIVATE)
 
 
-    fun saveFirstOp(firstOp : appFirstOpFun){
+    fun saveFirstOp() {
         val editor = localData.edit()
+
         editor.putBoolean("First Open", false)
         editor.apply()
     }
