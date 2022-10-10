@@ -29,6 +29,14 @@
         <activity
             android:name=".ut01.ex03.presentation.Ut01Ex03Activity"
             android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ut01.ex05.presentation.Ut01Ex05Activity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

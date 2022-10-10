@@ -39,9 +39,9 @@ class Ut01Ex03Activity : AppCompatActivity() {
         val news1 = News(1,"Titular1","Subtitle1","Summary1")
         val news2 = News(2,"Titular2","Subtitle1","Summary1")
         val news3 = News(3,"Titular3","Subtitle1","Summary1")
-        newsLocalSource.setNews(news1)
-        newsLocalSource.setNews(news2)
-        newsLocalSource.setNews(news3)
+        newsLocalSource.saveNews(news1)
+        newsLocalSource.saveNews(news2)
+        newsLocalSource.saveNews(news3)
 
         val newNews = newsLocalSource.findById(2)
 
