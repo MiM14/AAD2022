@@ -2,5 +2,6 @@
     <string name="app_name">ADD-2022</string>
     <string name="preference_ut01ex01">ut01ex01</string>
     <string name="preference_ut01ex02">ut01ex02</string>
+    <string name="preference_utextraex01">utextraex01</string>
 
 </resources>
