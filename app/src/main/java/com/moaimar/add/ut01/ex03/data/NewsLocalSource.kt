@@ -5,7 +5,7 @@ import com.google.gson.Gson
 import com.moaimar.add.ut01.ex03.domain.News
 
 class NewsLocalSource(val sharedPref:SharedPreferences) {
-    fun setNews(news:News){
+    fun saveNews(news:News){
 
         val gson = Gson()
         val jsonNews = gson.toJson(news,News::class.java)
@@ -23,7 +23,7 @@ class NewsLocalSource(val sharedPref:SharedPreferences) {
 
     fun setNewsList(newList: MutableList<News>){
         newList.forEach{
-            setNews(it)
+            saveNews(it)
         }
 
 

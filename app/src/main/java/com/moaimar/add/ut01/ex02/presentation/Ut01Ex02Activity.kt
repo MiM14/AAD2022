@@ -4,7 +4,6 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import com.moaimar.add.R
 import com.moaimar.add.ut01.ex02.data.SharedPreferenceLocalSource
-import com.moaimar.add.ut01.ex02.domain.appFirstOpFun
 
 
 class Ut01Ex02Activity :ComponentActivity() {

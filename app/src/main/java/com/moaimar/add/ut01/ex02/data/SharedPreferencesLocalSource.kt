@@ -3,7 +3,7 @@ package com.moaimar.add.ut01.ex02.data
 import android.app.Activity
 import android.content.Context
 import com.moaimar.add.R
-import com.moaimar.add.ut01.ex02.domain.appFirstOpFun
+import com.moaimar.add.ut01.ex02.domain.OpenedFirst
 import com.moaimar.add.ut01.ex02.presentation.Ut01Ex02Activity
 
 
@@ -19,8 +19,8 @@ class SharedPreferenceLocalSource(private val activity: Activity) {
         editor.apply()
     }
 
-    fun getFirstOp(): appFirstOpFun {
-        return appFirstOpFun(localData.getBoolean("First Open",true))
+    fun getFirstOp(): OpenedFirst {
+        return OpenedFirst(localData.getBoolean("First Open",true))
     }
 
 
